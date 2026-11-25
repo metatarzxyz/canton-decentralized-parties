@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Metatarz",
+    "logo": "",
+    "website": "https://wallet.metatarz.xyz",
+    "participant_uids": [
+      "metatarz-validator-2::12201524a7f506231f094ab5bb95c7825bc27381b693a4453d33670c585fe7bb5eb5",
+      "metatarz-validator-3::1220238459e48436b5b1910b2ed957920f5f05b887da375d28a60635b0daf8913cfd"
+    ],
+    "dars": [
+      {
+        "name": "metatarz-wallet",
+        "version": "0.3.4",
+        "package_id": "f6e40e15aa38f021c8f2c7a249ee03603d08ab94bfc5111cb9008ad5aed73a7d",
+        "download_link": ""
+      },
+      {
+        "name": "utility-credential-app-v0",
+        "version": "0.4.3",
+        "package_id": "87d6bfac3adf937cf5f603767f440a3b60416c2dfd9f82346455547972f5e236",
+        "download_link": ""
+      },
+      {
+        "name": "utility-credential-v0",
+        "version": "0.1.2",
+        "package_id": "044be226f82e81609111569fb7253421cdb86b2bf0ecab781f46a58003e69574",
+        "download_link": ""
+      },
+      {
+        "name": "utility-registry-app-v0",
+        "version": "0.9.2",
+        "package_id": "1eddd268bdd50d6e262722bea799c9455da032b3f94489e589975151b274b8c0",
+        "download_link": ""
+      },
+      {
+        "name": "utility-registry-app-v0",
+        "version": "0.9.3",
+        "package_id": "11c6368c711b96533e0f24a6eeed9625c98aad73c92ef3435ddc6e156da0e7c2",
+        "download_link": ""
+      },
+      {
+        "name": "utility-registry-holding-v0",
+        "version": "0.3.2",
+        "package_id": "415a1ec96a9e2839453e9aa1c5c71b6511c008c79511cb6f873e0b7393fe3b92",
+        "download_link": ""
+      },
+      {
+        "name": "utility-registry-holding-v0",
+        "version": "0.3.3",
+        "package_id": "74534a45e238948d031aad9fd788c947883cd9d63b2010d9b920ea1ff3aad907",
+        "download_link": ""
+      },
+      {
+        "name": "utility-registry-v0",
+        "version": "0.8.2",
+        "package_id": "8c654487d9f5fb195fbcdd7b44cd8e365b1ea39c15ae62ce6c7a48343f1210dd",
+        "download_link": ""
+      },
+      {
+        "name": "utility-registry-v0",
+        "version": "0.8.3",
+        "package_id": "1ba1dbfd46f069c62b497c79b465fa2432b3aca5f5270f06ad2b03cab421e367",
+        "download_link": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "host-approver operators registry (registry/{network}/operators.json)",
+  "description": "Operators that run host-approver on a network, with their participants and the packages they vet. Reference data for apps choosing hosts; host-approver does not read it.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "name",
+      "participant_uids"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "logo": {
+        "type": "string",
+        "pattern": "^(https://.*)?$",
+        "description": "https URL of a square logo (PNG/SVG)"
+      },
+      "website": {
+        "type": "string",
+        "pattern": "^(https://.*)?$"
+      },
+      "participant_uids": {
+        "type": "array",
+        "minItems": 1,
+        "uniqueItems": true,
+        "items": {
+          "type": "string",
+          "pattern": "^(PAR::)?[^:]+::1220[0-9a-f]{64}$"
+        },
+        "description": "Participant UIDs, as logged by host-approver at startup"
+      },
+      "dars": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "name",
+            "version",
+            "package_id"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "version": {
+              "type": "string"
+            },
+            "package_id": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            "download_link": {
+              "type": "string",
+              "pattern": "^(https://.*)?$",
+              "description": "https URL of the DAR file"
+            }
+          }
+        }
+      }
+    }
+  }
+}

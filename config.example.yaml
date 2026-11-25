@@ -1,0 +1,27 @@
+# cdp approve configuration. ${VAR} references are expanded from the environment.
+
+# This participant's Canton Admin API (gRPC), e.g. the participant's admin port.
+admin_api:
+  address: "localhost:5002"
+  tls:
+    enabled: false
+    # ca_file: /certs/ca.pem
+    # cert_file: /certs/client.pem   # mTLS client certificate
+    # key_file: /certs/client.key
+  # token: "${ADMIN_API_TOKEN}"      # optional bearer token
+
+# Synchronizer whose topology store is watched (global synchronizer on mainnet/testnet/devnet).
+synchronizer_id: "global-domain::1220be58c29e65de40bf273be1dc2b266d43a9a002ea5b18955aeef7aac881bb471a"
+poll_interval: "2s"
+
+# Optional Prometheus endpoint (GET /metrics)
+metrics_address: ":9090"
+
+policy:
+  # Participant UIDs ("name::1220…") whose hosting proposals are approved: the
+  # co-host that started (already signed) the proposal must be listed.
+  # Empty: proposals started by any co-host are approved.
+  allowed_participants_uid: []
+  allowed_permissions: [confirmation, observation]
+  max_hosts: 10
+  max_approvals_per_minute: 60
