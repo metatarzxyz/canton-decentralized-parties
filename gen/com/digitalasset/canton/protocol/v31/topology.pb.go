@@ -10,9 +10,9 @@
 package v31
 
 import (
-	v30 "github.com/metatarz/canton-decentralized-parties/gen/com/digitalasset/canton/crypto/v30"
-	v301 "github.com/metatarz/canton-decentralized-parties/gen/com/digitalasset/canton/protocol/v30"
-	_ "github.com/metatarz/canton-decentralized-parties/gen/scalapb"
+	v30 "github.com/metatarzxyz/canton-decentralized-parties/gen/com/digitalasset/canton/crypto/v30"
+	v301 "github.com/metatarzxyz/canton-decentralized-parties/gen/com/digitalasset/canton/protocol/v30"
+	_ "github.com/metatarzxyz/canton-decentralized-parties/gen/scalapb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

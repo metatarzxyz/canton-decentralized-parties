@@ -10,7 +10,7 @@
 package scalapb
 
 import (
-	_ "github.com/metatarz/canton-decentralized-parties/gen/scalapb"
+	_ "github.com/metatarzxyz/canton-decentralized-parties/gen/scalapb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

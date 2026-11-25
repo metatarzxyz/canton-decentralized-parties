@@ -10,7 +10,7 @@
 package v30
 
 import (
-	_ "github.com/metatarz/canton-decentralized-parties/gen/scalapb"
+	_ "github.com/metatarzxyz/canton-decentralized-parties/gen/scalapb"
 	status "google.golang.org/genproto/googleapis/rpc/status"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

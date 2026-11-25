@@ -10,7 +10,7 @@
 package v30
 
 import (
-	v30 "github.com/metatarz/canton-decentralized-parties/gen/com/digitalasset/canton/protocol/v30"
+	v30 "github.com/metatarzxyz/canton-decentralized-parties/gen/com/digitalasset/canton/protocol/v30"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

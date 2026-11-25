@@ -10,8 +10,8 @@
 package v30
 
 import (
-	v30 "github.com/metatarz/canton-decentralized-parties/gen/com/digitalasset/canton/crypto/v30"
-	_ "github.com/metatarz/canton-decentralized-parties/gen/scalapb"
+	v30 "github.com/metatarzxyz/canton-decentralized-parties/gen/com/digitalasset/canton/crypto/v30"
+	_ "github.com/metatarzxyz/canton-decentralized-parties/gen/scalapb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
