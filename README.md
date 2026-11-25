@@ -120,7 +120,7 @@ or with Docker:
 
 ```bash
 docker run -d --restart unless-stopped \
-  -v $PWD/config.yaml:/etc/cdp/config.yaml:ro ghcr.io/metatarzxyz/cdp:latest
+  -v $PWD/config.yaml:/etc/cdp/config.yaml:ro ghcr.io/metatarzxyz/canton-decentralized-parties:latest
 ```
 
 ## DAR list
